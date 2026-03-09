@@ -4,7 +4,7 @@ export default function CongratsStep() {
   return (
     <div className="step-content congrats-step">
       <div className="heart-big">❤️</div>
-      <h2 className="step-title">С Днем Святого <br/>Валентина!</h2>
+      <h2 className="step-title">Поздравляю с<br/> 8 марта, дорогая!</h2>
       <div className="step-description">
         <p>
             Ты - самое лучшее, что случилось в моей жизни. 

@@ -7,7 +7,7 @@ import photo6 from '../../../../public/images/photo5.jpg'
 
 
 export default function GalleryStep({ onNext }) {
-    const [setSelectedImage] = useState(null)
+
     const photos = [
         {
             id: 1,
@@ -17,7 +17,7 @@ export default function GalleryStep({ onNext }) {
         {
             id: 2,
             url: photo2,
-            title: "Мы на озере",
+            title: "...",
         },
         {
             id: 3,
@@ -37,7 +37,7 @@ export default function GalleryStep({ onNext }) {
         {
             id: 6,
             url: photo6,
-            title: "Просто ты",
+            title: "...",
         }
     ]
 
